@@ -1,26 +1,42 @@
 *{
-    margin: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
     padding: 0;
 }
 
 body{
     background-color: #21202b;
+        text-align: center;
+    font-family: roboto, sans-serif;
 }
 
 header{
-    min-height: 100vh;
     display: flex;
+    min-height: 100vh;
     align-items: center;
     flex-direction: column;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1{
     width: 950px;
-    text-align: center;
-    font-family: roboto, sans-serif;
     font-size: 90px;
     cursor: pointer;
-    margin: 0 auto;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 50%;
+}
+
+img {
+    width: 250px;
+    height: 250px;
 }
 
 .text-color{
